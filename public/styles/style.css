@@ -1,0 +1,49 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.navbar {
+    background-color: #dbdbdbd7;
+    
+}
+
+#cardIndex {
+    background-color: blanchedalmond;
+    width: 50%;
+   
+}
+
+html, body {
+  height: 100%;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+section.vh-100 {
+  flex: 1;
+}
+
+footer {
+  background: #f8f9fa; /* Adjust to your desired color */
+  
+}
+
+
+/* navbar-dark bg-dark */
