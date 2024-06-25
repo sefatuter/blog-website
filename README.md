@@ -1,5 +1,7 @@
 # ExpressJS Blog Website Project
 
+Technologies used: Javascript, EJS, HTML, CSS, NodeJS, MySQL
+
 ## Running website
 
 Clone this repo:
