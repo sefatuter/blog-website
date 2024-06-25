@@ -1,6 +1,6 @@
 # ExpressJS Blog Website Project
 
-Technologies used: Javascript, EJS, HTML, CSS, NodeJS, MySQL
+Technologies used: Javascript, EJS, HTML, CSS, Node.js, MySQL
 
 ## Running website
 
@@ -26,5 +26,21 @@ Run server:
 node .\index.js
 ```
 Go to: http://localhost:3000
+
+##
+
+* Login
+
+![image](https://github.com/sefatuter/blog-website/assets/95074982/980555ca-40ff-410b-b4eb-d41eac25ef16)
+
+* Creating Post
+
+![image](https://github.com/sefatuter/blog-website/assets/95074982/48bffa67-7fa5-490f-88c0-db60b5e58761)
+
+* Home
+
+![image](https://github.com/sefatuter/blog-website/assets/95074982/63a79b51-318c-45ac-83f3-e58126362250)
+
+
 
 
