@@ -1,42 +1,53 @@
 <%- include("partials/header.ejs") %>
 
 <div class="container mt-3">
-  <button class="btn btn-secondary"><a href="/blogs/new" class="text-white">+ Create Post</a></button>
-  
-
+  <button class="btn btn-success">
+    <a href="/blogs/new" class="text-white">+ Create Post</a>
+  </button>
 
   <br /><br /><br />
   <h1>Blog Posts</h1>
   <div>
     <% posts.forEach(post => { %>
-      <div class="card" id="cardIndex">
-        <div class="card-body">
-          <h5 class="card-title"><a href="/blogs/<%= post.id %>/edit"><%= post.title %></a></h5>
-          <p class="card-text">
-            <%= post.content %>
-          </p>
+    <div class="card" id="cardIndex">
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="/blogs/<%= post.id %>/edit"><%= post.title %></a>
+        </h5>
+        <p class="card-text"><%= post.content %></p>
 
-          <a href="/blogs/<%= post.id %>/edit" class="btn btn-outline-warning btn-sm">Edit</a>
-          <br/><br>
+        <div class="d-flex align-items-center">
+          <a href="/blogs/<%= post.id %>/edit"
+            ><button class="btn btn-secondary btn-sm me-2">View More</button></a
+          >
 
-          <form action="/blogs/<%= post.id %>?_method=DELETE" method="POST">
+          <a
+            href="/blogs/<%= post.id %>/edit"
+            class="btn btn-outline-warning btn-sm me-2"
+            >Edit</a
+          >
+          <form
+            action="/blogs/<%= post.id %>?_method=DELETE"
+            method="POST"
+            class="m-0"
+          >
             <button type="submit" class="btn btn-danger btn-sm">Delete</button>
           </form>
-
-          <p class="card-text">
-            <small class="text-body-secondary">Last updated 3 mins ago <span>-- from: <%= username  %></span></small>
-          </p>
         </div>
-        <img
-          src="images/depo.jpg"
-          class="card-img-bottom border border-radius-2"
-          alt="..."
-        />
-      </div>
-      <br><br>
-      <% }) %>
-    </div>
 
+        <p class="card-text">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </p>
+      </div>
+      <img
+        src="images/depo.jpg"
+        class="card-img-bottom border border-radius-2"
+        alt="..."
+      />
+    </div>
+    <br /><br />
+    <% }) %>
+  </div>
 </div>
 
 <%- include("partials/footer.ejs") %>

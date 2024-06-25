@@ -35,9 +35,12 @@ app.use('/users', userRoutes);
 
 app.get('/', async (req, res) => {
   const posts = await Post.findAll();
-  res.render('index', { posts });
+  res.render('index.ejs', { posts });
 });
 
+app.get("/about", (req, res) => {
+  res.render("about.ejs");
+});
 
 // app.get("/", (req, res) => {
 //   res.render("index.ejs");
@@ -56,9 +59,7 @@ app.get('/', async (req, res) => {
 //   res.render("register.ejs");
 // });
 
-// app.get("/about", (req, res) => {
-//   res.render("about.ejs");
-// });
+
 
 // app.get("/login", (req,res) => {
 //   res.render("login.ejs");
