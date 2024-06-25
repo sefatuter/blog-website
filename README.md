@@ -1,6 +1,6 @@
 # ExpressJS Blog Website Project
 
-Technologies used: Javascript, EJS, HTML, CSS, Node.js, MySQL
+Technologies used: Javascript, EJS, HTML, CSS, Bootstrap, Node.js, MySQL
 
 ## Running website
 
