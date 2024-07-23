@@ -29,18 +29,20 @@ Go to: http://localhost:3000
 
 ##
 
+* Home
+
+![1](https://github.com/user-attachments/assets/3c80f319-83e7-4d01-815e-e358b9cea3aa)
+
 * Login
 
-![image](https://github.com/sefatuter/blog-website/assets/95074982/980555ca-40ff-410b-b4eb-d41eac25ef16)
+![2](https://github.com/user-attachments/assets/d48e20ff-9642-4b15-aff9-3135849a6ca8)
 
 * Creating Post
 
-![image](https://github.com/sefatuter/blog-website/assets/95074982/48bffa67-7fa5-490f-88c0-db60b5e58761)
+![3](https://github.com/user-attachments/assets/0b45c699-5d25-4c79-b46a-f3285b70c256)
 
-* Home
+![4](https://github.com/user-attachments/assets/9b221cbe-6c3e-486e-8f4d-75b85186c80b)
 
-![image](https://github.com/sefatuter/blog-website/assets/95074982/63a79b51-318c-45ac-83f3-e58126362250)
+* Edit Post
 
-
-
-
+![5](https://github.com/user-attachments/assets/a666c7f0-988f-444a-9695-3b66a55dd115)
