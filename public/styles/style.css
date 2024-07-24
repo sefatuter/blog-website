@@ -25,14 +25,19 @@ height: 100%;
    
 }
 
-html, body {
+html, body{
   height: 100%;
 
 }
 
-body {
+body main {
   display: flex;
   flex-direction: column;
+
+  background-image: url("https://i.hizliresim.com/ov2ky26.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
 
 }
 
@@ -40,10 +45,8 @@ section.vh-100 {
   flex: 1;
 }
 
-footer {
-  background: #f8f9fa; /* Adjust to your desired color */
-  
+footer p {
+  color: black;
 }
-
 
 /* navbar-dark bg-dark */
